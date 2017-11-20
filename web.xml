@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>MVCDemo</display-name>
+  <!--  
+  <error-page>
+<exception-type>java.lang.FileUploadException</exception-type>
+<location>/registerpicture2.jsp</location>
+</error-page>
+
+
+<error-page>
+<error-code>500</error-code>
+<location>/error.jsp</location>
+</error-page>
+
+<error-page>
+<error-code>400</error-code>
+<location>/error.jsp</location>
+</error-page>
+-->
+   <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controllers.LoginController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description></description>
+    <display-name>adminController</display-name>
+    <servlet-name>adminController</servlet-name>
+    <servlet-class>controllers.adminController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description></description>
+    <display-name>MessageController</display-name>
+    <servlet-name>MessageController</servlet-name>
+    <servlet-class>controllers.MessageController</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description></description>
+    <display-name>EditPrivillege</display-name>
+    <servlet-name>EditPrivillege</servlet-name>
+    <servlet-class>controllers.EditPrivillege</servlet-class>
+  </servlet>
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>SearchController</display-name>
+    <servlet-name>SearchController</servlet-name>
+    <servlet-class>controllers.SearchController</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description></description>
+    <display-name>ForumController</display-name>
+    <servlet-name>ForumController</servlet-name>
+    <servlet-class>controllers.ForumController</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>Information</display-name>
+    <servlet-name>Information</servlet-name>
+    <servlet-class>controllers.Information</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>EditProfile</display-name>
+    <servlet-name>EditProfile</servlet-name>
+    <servlet-class>controllers.EditProfile</servlet-class>
+  </servlet>
+     <servlet>
+    <description></description>
+    <display-name>Recommendations</display-name>
+    <servlet-name>Recommendations</servlet-name>
+    <servlet-class>controllers.Recommendations</servlet-class>
+  </servlet>
+     <servlet>
+    <description></description>
+    <display-name>TrainingController</display-name>
+    <servlet-name>TrainingController</servlet-name>
+    <servlet-class>controllers.TrainingController</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>LogoutController</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>controllers.LogoutController</servlet-class>
+  </servlet>
+  <servlet>
+  <description></description>
+       <display-name>RegistrationController</display-name>
+    <servlet-name>RegistrationController</servlet-name>
+    <servlet-class>controllers.RegistrationController</servlet-class>
+  </servlet>
+     <servlet>
+    <description></description>
+    <display-name>ProfileController</display-name>
+    <servlet-name>ProfileController</servlet-name>
+    <servlet-class>controllers.ProfileController</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>UploadServlet</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>controllers.UploadServlet</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>adminController</servlet-name>
+    <url-pattern>/adminController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>MessageController</servlet-name>
+    <url-pattern>/MessageController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ForumController</servlet-name>
+    <url-pattern>/ForumController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Information</servlet-name>
+    <url-pattern>/Information</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>EditProfile</servlet-name>
+    <url-pattern>/EditProfile</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>Recommendations</servlet-name>
+    <url-pattern>/Recommendations</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TrainingController</servlet-name>
+    <url-pattern>/TrainingController</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>EditPrivillege</servlet-name>
+    <url-pattern>/EditPrivillege</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>RegistrationController</servlet-name>
+    <url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>SearchController</servlet-name>
+    <url-pattern>/SearchController</url-pattern>
+  </servlet-mapping>
+  
+      <servlet-mapping>
+    <servlet-name>ProfileController</servlet-name>
+    <url-pattern>/ProfileController</url-pattern>
+  </servlet-mapping>
+ 
+    
+ 
+  
+   
+</web-app>
+
+
